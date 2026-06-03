@@ -1,0 +1,36 @@
+# ============================================================
+# Wood Surface Defect Detection - Requirements
+# Install all with: pip install -r requirements.txt
+# ============================================================
+
+# Core data handling
+pandas==2.1.4
+numpy==1.26.4
+openpyxl==3.1.2          # For reading .xlsx files
+
+# Computer Vision
+opencv-python==4.9.0.80   # Classical CV (Canny, thresholding, morphology)
+Pillow==10.2.0             # Image loading/saving
+
+# Deep Learning - YOLOv8
+ultralytics==8.1.27       # YOLOv8 by Ultralytics
+
+# Visualization
+matplotlib==3.8.3
+seaborn==0.13.2
+plotly==5.19.0             # Interactive charts in Streamlit
+
+# Web App
+streamlit==1.32.2          # Web interface
+streamlit-option-menu==0.3.12
+
+# Grad-CAM (Explainability)
+grad-cam==1.5.0            # Gradient-weighted Class Activation Mapping
+
+# Evaluation metrics
+scikit-learn==1.4.1
+
+# Utilities
+tqdm==4.66.2               # Progress bars
+PyYAML==6.0.1              # For reading YOLO data.yaml
+requests==2.31.0

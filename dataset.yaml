@@ -1,0 +1,16 @@
+path: C:\Users\GIGIBYTE\Downloads\hassaan\files - Copy\wood_dataset
+train: images/train
+val: images/val
+test: images/test
+nc: 10
+names:
+- Live knot
+- Dead knot
+- Knot with crack
+- Crack
+- Resin
+- Marrow
+- Quartzity
+- Knot missing
+- Blue stain
+- Overgrown
